@@ -1,0 +1,153 @@
+
+* {
+	padding: 0em;
+	margin: 0em;
+
+}
+.container {
+
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: white;
+    scroll-margin-top: 4.375em;
+    flex: 50%;
+
+}
+.container-text {
+
+    padding: 1.7em;
+
+}
+
+.main-text {
+
+    font-size: 5.4em;
+    font-family: 'Cream Cake','Perpetua','Arial Narrow', Arial, sans-serif;
+    color: rgb(153, 88, 161);
+    margin-bottom: 0em;
+ 
+
+}
+
+.secondary-text {
+
+    font-size: 1.2em;
+    margin-bottom: 0;
+    font-family: 'Poppins Semibold';
+    color: rgb(28, 135, 177);
+    display: flex;
+    text-align: center;
+
+
+}
+
+.third-text {
+
+    font-size: 1.7em;
+    color: gray;
+    text-align: end;
+    font-family: 'Perpetua','Arial Narrow';
+    margin-top: 0.4em;
+
+}
+
+.personal-review {
+
+    font-size: 1em;
+    font-family:'Comfortaa';
+    text-align: justify;
+    line-height: 1.4;
+    margin-top: 2.25em;
+    margin-bottom: 1.25em;
+    color:gray;
+
+   
+}
+
+
+
+
+/*Diseño de pantalla*/
+
+.container-design {
+
+    padding-top: 4.125em;
+    padding-left: 7em;
+    position: relative;
+
+}
+
+.display {
+    
+    width: 26.25em;
+    height: 16.25em;
+    background-color: transparent;
+    border: 1.125em solid rgb(28, 135, 177);
+    border-top-left-radius: 1.25em;
+    border-top-right-radius: 1.25em;
+    position: relative;
+    
+
+}
+
+
+.internal-display img {
+
+    width: 24em;
+    height: 14em;
+
+}
+
+.camera {
+
+    width: 0.875em;
+    height: 0.875em;
+    border-radius: 50%;
+    border: 0.1875em solid gray;
+    background-color: black;
+    top: -1em;
+    right: 50%;
+    position: absolute;
+
+
+}
+
+.camera-light {
+
+    width: 0.3125em;
+    height: 0.3125em;
+    border-radius: 50%;
+    top: -0.75em;
+    left: 54%;
+    background-color: gray;
+    position: absolute;
+
+}
+
+.low-casing {
+
+    width: 26.25em;
+    height: 2.375em;
+    background-color: rgb(99, 147, 187);
+    border-bottom-left-radius: 1.25em;
+    border-bottom-right-radius: 1.25em;
+    -webkit-box-shadow: 0em 0.625em 0.8125em -0.4375em #737373, 0em -0.375em 0.25em 0em rgba(0,0,0,0); 
+    box-shadow: 0em 0.625em 0.8125em -0.4375em #737373, 0em -0.375em 0.25em 0em rgba(0,0,0,0);
+
+
+}
+.monitor-stand {
+
+    width: 4.9375rem;
+    height: 3.125rem;
+    background-color: rgb(99, 147, 187);
+    right: 10.8125rem;
+    position: absolute;
+    top: 22.75rem;
+    box-shadow: 0rem 0.625rem 0.8125rem -0.4375rem #737373, 0rem -0.375rem 0.25rem 0rem rgb(0 0 0 / 0%);
+
+
+}
+
+

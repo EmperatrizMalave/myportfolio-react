@@ -1,0 +1,163 @@
+/* Formulario de contacto*/
+
+* {
+    padding: 0em;
+    margin: 0em;
+}
+
+#container {
+
+    display: flex;
+    justify-content: center;
+    padding: 2.5em;
+    width: 100%;
+    
+}
+
+.formulario {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2.5em;
+    margin-top: 4.375em;
+    box-shadow: 0.3125em 0.625em 1.25em #737373;
+    background-color:white;
+
+
+
+}
+
+.formulario .inputGroup {
+
+    display: flex;
+    flex-direction: column;
+    flex: 0.48;
+   
+}
+
+.formulario .inputGroup.message {
+
+    display: flex;
+    flex: 0 0 100%;
+
+}
+
+label[for="name"] {
+
+    color: #737373;
+    font-family: 'Fragment Core';
+    font-size: 1.25em;
+}
+
+
+label[for="mail"] {
+
+    color: #737373;
+    font-family: 'Fragment Core';
+    font-size: 1.25em;
+}
+
+label[for="message"] {
+
+
+    color: #737373;
+    font-family: 'Fragment Core';
+    font-size: 1.25em;
+}
+
+.formulario textarea {
+
+    margin-bottom: 0.5em;
+    border-top: 0em;
+    border-left: 0em;
+    border-right: 0em;
+    overflow: hidden;
+    resize: none;
+
+}
+
+.boton {
+
+    border: 0;
+    color: #737373;
+    background-color: white;
+    font-size: 1.5em;
+    font-family: 'Poppins Semibold';
+    margin-left: 40%;
+
+
+}
+.boton:hover {
+    
+color: black;
+
+}
+
+
+/* Tarjeta de contacto*/
+
+
+.cardContainer {
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.card {
+
+    width: 36.25em;
+    height: 30em;
+    background-color: #737373;
+    color: #f4f0e5;
+    top: 6.875em; 
+    z-index: -2;
+    right: 5.125em;
+    display: flex;
+    text-align: end;
+
+}
+
+.title {
+
+    display: flex;
+    padding: 0.70em;
+    font-size: 3.375em;
+    font-family: 'Perpetua';
+    justify-content: center;
+
+}
+
+.text {
+
+    font-size: 1.375em;
+    text-align: end;
+    font-family: 'Fragment Core';
+    margin-right: 1.25em;
+
+}
+
+.phone {
+
+    font-size: 1.375em;
+    text-align: end;
+    font-family: 'Fragment Core';
+    margin-right: 1.25em;
+
+}
+
+.image {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.image img {
+
+    width: 11.25em;
+    padding: 0.625em;
+}
+

@@ -1,0 +1,20 @@
+
+.footerContainer {
+
+    display: flex;
+    width: 100%;
+    
+
+}
+
+
+img {
+    
+    width: 100%;
+}
+/*@media screen and (min-width: 937px) {
+    .footerContainer {
+        width: 95% ;
+    }
+  } */
+
